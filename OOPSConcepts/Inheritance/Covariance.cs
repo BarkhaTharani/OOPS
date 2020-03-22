@@ -21,7 +21,7 @@ namespace C_PlayGround {
     }
 
     public class Covariance {
-        public Animal testCovarianceBuiltIn () {
+        public Animal testCovarianceComplex () {
             System.Console.WriteLine ("Testing Covraiance");
             return new Dog ();
         }
@@ -40,12 +40,11 @@ namespace C_PlayGround {
             animal.walk ();
 
             Covariance cv = new Covariance ();
-            var dog = cv.testCovarianceBuiltIn ();
+            var dog = cv.testCovarianceComplex ();
             System.Console.WriteLine (dog.ToString ());
             dog.walk ();
             var cvTest = cv.testCovarianceBuiltIn ();
             System.Console.WriteLine (cvTest);
-
         }
     }
 }
