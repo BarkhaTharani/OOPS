@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>OOPSConcepts</RootNamespace>
+    <StartUpObject>OOPSConcepts.Aggregation.TestAggregation</StartUpObject>
+  </PropertyGroup>
+
+</Project>
