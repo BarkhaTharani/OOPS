@@ -1,6 +1,7 @@
 using System;
 
-namespace C_PlayGround {
+namespace OOPSConcepts {
+    
     interface IBird {
         static int p;
         const int q = 1;
@@ -24,6 +25,7 @@ namespace C_PlayGround {
             System.Console.WriteLine ("Bird flying in bird 2");
         }
     }
+
     public class Sparrow : IBird, IBird2 {
         public Sparrow () {
 

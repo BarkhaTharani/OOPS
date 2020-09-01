@@ -1,6 +1,6 @@
 using System;
 
-namespace C_PlayGround {
+namespace OOPSConcepts {
     class Pizza {
 
         virtual public Object CreateCrust () {

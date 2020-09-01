@@ -1,6 +1,6 @@
 using System;
 
-namespace C_PlayGround {
+namespace OOPSConcepts{
     public class Animal {
         public Animal () {
 

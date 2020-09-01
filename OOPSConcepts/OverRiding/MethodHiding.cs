@@ -1,4 +1,4 @@
-namespace C_PlayGround {
+namespace OOPSConcepts {
     public class Pen {
         public void write () {
             System.Console.WriteLine ("writing with pen..");
